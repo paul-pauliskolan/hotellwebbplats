@@ -1,0 +1,74 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    height: auto;
+    margin: auto;
+    width: 100%;
+    display: block;
+}
+
+body{
+    background-color: #C8F25F;
+    min-height: 55em;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    -webkit-box-shadow: inset 0px 0px 30px 10px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 0px 30px 10px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 0px 30px 10px rgba(0,0,0,0.5);
+}
+
+footer{
+    background-color: #4E6E00;
+    color: #fff;
+    font-family: "Times new roman", sans-serif;
+    font-size: 14px;
+    -webkit-box-shadow: inset 0px -20px 30px -10px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px -20px 30px -10px rgba(0,0,0,0.5);
+    box-shadow: inset 0px -20px 30px -10px rgba(0,0,0,0.5);
+}
+
+.navbar {
+    background-color: #4E6E00;
+    border: 0;
+    font-size: 16px !important;
+    letter-spacing: 2px;
+    font-family: "Times new roman",sans-serif;
+    -webkit-box-shadow: inset 0px 20px 25px -10px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 20px 25px -10px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 20px 25px -10px rgba(0,0,0,0.5);
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #4E6E00!important;
+    background-color: #fff !important;
+    -webkit-box-shadow: inset 0px 20px 30px -10px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 20px 30px -10px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 20px 30px -10px rgba(0,0,0,0.5);
+}
+
+.navbar-default .navbar-toggle {
+    color: #fff !important;
+}
+
+.textbackground{
+    text-align: justify;
+    background-color: white;
+    border-style: solid;
+    border-color: #4E6E00;
+    -webkit-box-shadow: inset 10px 20px 30px -10px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 10px 20px 30px -10px rgba(0,0,0,0.5);
+    box-shadow: inset 10px 20px 30px -10px rgba(0,0,0,0.5);
+}
+
+.link{
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: #fff;
+}
